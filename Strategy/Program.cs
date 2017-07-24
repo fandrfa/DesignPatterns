@@ -24,7 +24,7 @@ namespace Strategy
             
             phoenixDuck.SetFlyBehaviour(new FlyWithWings());
             phoenixDuck.SetQuackBehaviour(new NormalQuack());
-            Console.WriteLine("Oh, now, the phoenix duck was demoted to a normal duck! Look how its flying and quacking methods were changed:");
+            Console.WriteLine("Oh no! The phoenix duck was demoted to a normal duck! Look how its flying and quacking methods were changed:");
             phoenixDuck.Fly();
             phoenixDuck.Quack();
 
