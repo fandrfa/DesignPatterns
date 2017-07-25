@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A0611559-B898-418B-80EE-34B8FDC51A00}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Observer</RootNamespace>
-    <AssemblyName>Observer</AssemblyName>
+    <RootNamespace>ObserverPattern</RootNamespace>
+    <AssemblyName>ObserverPattern</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
