@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{A0611559-B898-418B-80EE-34B8FDC51A00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{7FE38E86-D374-4AEA-9C60-28917F750F86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A0611559-B898-418B-80EE-34B8FDC51A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0611559-B898-418B-80EE-34B8FDC51A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0611559-B898-418B-80EE-34B8FDC51A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE38E86-D374-4AEA-9C60-28917F750F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE38E86-D374-4AEA-9C60-28917F750F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE38E86-D374-4AEA-9C60-28917F750F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE38E86-D374-4AEA-9C60-28917F750F86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
