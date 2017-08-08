@@ -15,10 +15,7 @@ namespace IteratorPattern
             DinnerMenu dinnerMenu = new DinnerMenu();
 
             Waitress waitress = new Waitress(pancakeHouseMenu, dinnerMenu);
-            waitress.PrintMenu();
-            //waitress.PrintBreakfastMenu();
-            //waitress.PrintLunchMenu();
-            //waitress.PrintVegetarianMenu();
+            waitress.PrintMenu();            
 
             Console.ReadLine();
         }
@@ -200,61 +197,7 @@ namespace IteratorPattern
                 MenuItem menuItem = iterator.Next();
                 PrintMenuItem(menuItem);
             }
-        }
-
-        //public void PrintBreakfastMenu()
-        //{
-        //    Console.WriteLine("Breakfast Menu:");
-        //    PancakeHouseMenuIterator pancakeHouseMenuIterator = pancakeHouseMenu.CreateIterator();
-        //    while (pancakeHouseMenuIterator.HasNext())
-        //    {
-        //        MenuItem menuItem = pancakeHouseMenuIterator.Next();
-        //        PrintMenuItem(menuItem);
-        //    }
-        //}
-
-        //public void PrintLunchMenu()
-        //{
-        //    Console.WriteLine("Dinner Menu:");
-
-        //    DinnerMenuIterator dinnerMenuIterator = dinnerMenu.CreateIterator();
-        //    while (dinnerMenuIterator.HasNext())
-        //    {
-        //        MenuItem menuItem = dinnerMenuIterator.Next();
-        //        PrintMenuItem(menuItem);
-        //    }
-        //}
-
-        //public void PrintMenu()
-        //{
-        //    PrintBreakfastMenu();
-
-        //    PrintLunchMenu();
-        //}
-
-        //public void PrintVegetarianMenu()
-        //{
-        //    Console.WriteLine("Vegetarian Menu:");
-        //    PancakeHouseMenuIterator pancakeHouseMenuIterator = pancakeHouseMenu.CreateIterator();
-        //    while (pancakeHouseMenuIterator.HasNext())
-        //    {
-        //        MenuItem menuItem = pancakeHouseMenuIterator.Next();
-        //        if (menuItem.IsVegetarian)
-        //        {
-        //            PrintMenuItem(menuItem);
-        //        }                
-        //    }
-
-        //    DinnerMenuIterator dinnerMenuIterator = dinnerMenu.CreateIterator();
-        //    while (dinnerMenuIterator.HasNext())
-        //    {
-        //        MenuItem menuItem = dinnerMenuIterator.Next();
-        //        if (menuItem.IsVegetarian)
-        //        {
-        //            PrintMenuItem(menuItem);
-        //        }
-        //    }
-        //}
+        }        
 
         private void PrintMenuItem(MenuItem menuItem)
         {
