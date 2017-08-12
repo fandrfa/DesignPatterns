@@ -42,8 +42,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractDuckFactory.cs" />
+    <Compile Include="CountingDuckFactory.cs" />
+    <Compile Include="DuckCall.cs" />
+    <Compile Include="DuckFactory.cs" />
+    <Compile Include="DuckSimulator.cs" />
+    <Compile Include="Flock.cs" />
+    <Compile Include="Goose.cs" />
+    <Compile Include="GooseAdapter.cs" />
+    <Compile Include="IObserver.cs" />
+    <Compile Include="IQuackable.cs" />
+    <Compile Include="IQuackObservable.cs" />
+    <Compile Include="MallardDuck.cs" />
+    <Compile Include="Observable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuackCounter.cs" />
+    <Compile Include="Quackologist.cs" />
+    <Compile Include="RedheadDuck.cs" />
+    <Compile Include="RubberDuck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
