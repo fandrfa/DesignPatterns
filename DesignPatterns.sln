@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{07F5DF7B-C07A-4AE6-87F0-4FFC50487CE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompoundPattern", "CompoundPattern\CompoundPattern.csproj", "{DDD220DB-C246-4631-A7D2-B874C5DB8CD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetOfPatterns", "CompoundPattern\SetOfPatterns.csproj", "{DDD220DB-C246-4631-A7D2-B874C5DB8CD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
